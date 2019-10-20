@@ -57,3 +57,5 @@ app.init({
 ```
 
 另外，还有值得注意的，本demo在开发的时候，云函数的依赖包是 `tcb-admin-node` ，现在官方文档已改为 `wx-server-sdk`。不过亲测使用 `tcb-admin-node` 依旧能跑通，每个云函数都需要安装依赖后全量上传。
+
+123
