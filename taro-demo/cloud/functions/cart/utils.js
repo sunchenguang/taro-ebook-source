@@ -1,8 +1,8 @@
-const app = require('tcb-admin-node')
+const app = require('wx-server-sdk')
 
 app.init({
-  envName: 'taro-ebook-23bbcb',
-  mpAppId: 'wx9504f077bdc24ea2',
+  envName: 'demo1-c42c54',
+  mpAppId: 'wx1adbb12292af7288',
 })
 
 const typeMap = {
@@ -64,7 +64,7 @@ async function getNewCartData ({cartInfo, shopMap}) {
         newShopMap[newItem.venderId] = shopMap[newItem.venderId]
       }
     }
-  
+
     return newItem
   }))
 

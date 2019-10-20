@@ -10,10 +10,10 @@ async function getCart (db, data) {
   }
 
   const res = await cartColl.doc(_id).get()
-  if (res.data.length === 0) {
+  if (!res.data || !Object.keys(res.data).length) {
     await cartColl.add(cartData)
   } else {
-    cartData = res.data[0]
+    cartData = res.data
   }
   return cartData
 }

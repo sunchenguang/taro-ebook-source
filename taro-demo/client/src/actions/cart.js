@@ -38,7 +38,7 @@ function d () {
 }
 
 const c = [a, b, d].reduce((a, b) => {
-  return (aaa) =>{ 
+  return (aaa) =>{
     return a(b(aaa))
   }
 })

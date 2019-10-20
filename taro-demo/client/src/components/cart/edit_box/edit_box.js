@@ -61,7 +61,7 @@ class EditBox extends Component {
     const {isClose, showColorValue, showSizeValue} = this.state
     const {editSkuData} = this.props
     const {showEidtBox, sku} = editSkuData
-    const {colorInfo, sizeInfo} = sku || {}
+    const {colorInfo = {}, sizeInfo = {}} = sku || {}
 
     const colorValue = showColorValue || colorInfo.value
     const sizeValue = showSizeValue || sizeInfo.value

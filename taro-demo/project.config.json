@@ -14,12 +14,15 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.6.2",
-	"appid": "wx9504f077bdc24ea2",
+	"libVersion": "2.8.3",
+	"appid": "wx1adbb12292af7288",
 	"projectname": "%E6%8E%98%E9%87%91%E5%B0%8F%E5%86%8Cdemo",
 	"isGameTourist": false,
 	"miniprogramRoot": "client/dist/",
 	"cloudfunctionRoot": "cloud/functions/",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
 	"condition": {
 		"search": {
 			"current": -1,

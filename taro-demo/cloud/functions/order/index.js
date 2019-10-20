@@ -7,8 +7,8 @@ const { cancelOrder } = require('./cancelOrder.js')
 const { getOrderDetail } = require('./getOrderDetail.js')
 
 app.init({
-  envName: 'taro-ebook-23bbcb',
-  mpAppId: 'wx9504f077bdc24ea2',
+  envName: 'demo1-c42c54',
+  mpAppId: 'wx1adbb12292af7288',
   // secretId: 'AKIDuA6QxlhN9619IeT2y45S8tmCvRtnubjs',
   // secretKey: 'qXW08RurtFSb6YYZs73DvEQ1qmEFSDIJ',
   // sessionToken: '4431b3f2da2e54cdce7c85a8714b8abb63ca397340001'

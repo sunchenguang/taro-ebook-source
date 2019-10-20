@@ -1,7 +1,7 @@
 import Taro from '@tarojs/taro'
 import { getGlobalData } from '../constants/globalData'
 
-const appid = 'wx9504f077bdc24ea2'
+const appid = 'wx1adbb12292af7288'
 const secret = 'a98c03055579cfd517a45fb4771377e9'
 
 async function getUserInfo () {

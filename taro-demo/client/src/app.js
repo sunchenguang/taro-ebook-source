@@ -68,7 +68,7 @@ class App extends Component {
   async componentWillMount () {
     if (process.env.TARO_ENV === 'weapp') {
       wx.cloud.init({
-        env: 'taro-ebook-23bbcb', // 前往云控制台获取环境id
+        env: 'demo1-c42c54', // 前往云控制台获取环境id
         traceUser: true // 是否要捕捉每个用户的访问记录。设置为true，用户可在管理端看到用户访问记录
       })
       const userData = await getWxUserData()

@@ -32,7 +32,7 @@
 async componentWillMount () {
   if (process.env.TARO_ENV === 'weapp') {
     wx.cloud.init({
-      env: 'taro-ebook-23bbcb', // 换成你的云函数环境
+      env: 'demo1-c42c54', // 换成你的云函数环境
       traceUser: true // 是否要捕捉每个用户的访问记录。设置为true，用户可在管理端看到用户访问记录
     })
     const userData = await getWxUserData()
@@ -51,8 +51,8 @@ const { getCart } = require('./getCart.js')
 const { editCart } = require('./editCart.js')
 
 app.init({
-  envName: 'taro-ebook-23bbcb',   // 换成你的云函数环境
-  mpAppId: 'wx9504f077bdc24ea2'   // 换成你的小程序id
+  envName: 'demo1-c42c54',   // 换成你的云函数环境
+  mpAppId: 'wx1adbb12292af7288'   // 换成你的小程序id
 })
 ```
 
